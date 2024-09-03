@@ -1,0 +1,458 @@
+---
+title: "Module 2: Systems Analysis"
+subtitle: "EME5601: Introduction to Instructional Systems"
+author: "Dr. Bret Staudt Willet"
+date: "September 4, 2024"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    seal: true
+    css: [default, 'custom.css', 'custom-fonts.css']
+    nature:
+      titleSlideClass: [left, bottom]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+usethis::use_git_ignore(c("*.csv", "*.rds"))
+options(htmltools.dir.version = FALSE)
+
+library(knitr)
+library(tidyverse)
+library(xaringan)
+library(fontawesome)
+```
+
+class: inverse, center, middle
+
+# `r fa("fas fa-images", fill = "#fff")`
+
+**View the slides:** 
+
+[bretsw.com/eme5601-fs24-module2](https://bretsw.com/eme5601-fs24-module2)
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-cubes-stacked", fill = "#fff")` <br><br> Module 2 <br> Systems Analysis
+
+---
+
+# `r fa("fas fa-cubes-stacked", fill = "#fff")` Centipede, A Classic System
+
+<iframe src="https://www.lexaloffle.com/bbs/widget.php?pid=centipede" allowfullscreen width="100%" height="513" style="border:none; overflow:hidden"></iframe>
+
+---
+
+# `r fa("fas fa-cubes-stacked", fill = "#fff")` Passage, A Newer System
+
+```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
+include_graphics("img/passage.png")
+```
+
+### A video game by [Jason Rohrer](http://passage.toolness.org/)
+
+--
+
+<hr>
+
+.pull-left[
+- adaptation
+- boundary
+- closed system
+- entropy
+- feedback
+- filtering
+- formal achievement
+- goals
+- ideal
+- information
+- inputs
+- interface
+- maintenance inputs
+]
+
+.pull-right[
+- need satisfaction
+- open system
+- outputs
+- process
+- selectivity
+- signal inputs
+- status quo (state)
+- subsystem
+- suprasystem
+- system
+- system dissonance
+- transforming
+]
+
+---
+
+# `r fa("fas fa-cubes-stacked", fill = "#fff")` Parable of the Polygons
+
+```{r, out.width = "560px", echo = FALSE, fig.align = "center"}
+include_graphics("img/polygons.png")
+```
+
+### A video game by [Vi Hart and Nicky Case](https://ncase.me/polygons/)
+
+<hr>
+
+.pull-left[
+- adaptation
+- boundary
+- closed system
+- entropy
+- feedback
+- filtering
+- formal achievement
+- goals
+- ideal
+- information
+- inputs
+- interface
+- maintenance inputs
+]
+
+.pull-right[
+- need satisfaction
+- open system
+- outputs
+- process
+- selectivity
+- signal inputs
+- status quo (state)
+- subsystem
+- suprasystem
+- system
+- system dissonance
+- transforming
+]
+
+---
+
+# `r fa("fas fa-cubes-stacked", fill = "#fff")` Evolution of Trust
+
+```{r, out.width = "560px", echo = FALSE, fig.align = "center"}
+include_graphics("img/trust.png")
+```
+
+### A video game by [Nicky Case](https://ncase.me/trust/)
+
+<hr>
+
+.pull-left[
+- adaptation
+- boundary
+- closed system
+- entropy
+- feedback
+- filtering
+- formal achievement
+- goals
+- ideal
+- information
+- inputs
+- interface
+- maintenance inputs
+]
+
+.pull-right[
+- need satisfaction
+- open system
+- outputs
+- process
+- selectivity
+- signal inputs
+- status quo (state)
+- subsystem
+- suprasystem
+- system
+- system dissonance
+- transforming
+]
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-cubes-stacked", fill = "#fff")` <br><br> ISD in an Organization <br> (Ch. 17)
+
+---
+
+# `r fa("fas fa-cubes-stacked", fill = "#fff")` ISD in an Organization
+
+```{r, out.width = "480px", echo = FALSE, fig.align = "center"}
+include_graphics("img/puzzle-piece.jpg")
+```
+
+--
+
+**How and where does ISD fit in an org?**
+
+--
+
+- *Human Resources* Center of Expertise Model
+
+--
+
+- *Embedded* Model: Within a business unit
+
+--
+
+- ISD *Community of Practice*
+
+---
+
+class: inverse, center, middle
+
+# `r fa("far fa-comments", fill = "#fff")` <br><br> Where should ISD sit in your organization?
+
+---
+
+# `r fa("fas fa-cubes-stacked", fill = "#fff")` ISD in an Organization
+
+```{r, out.width = "480px", echo = FALSE, fig.align = "center"}
+include_graphics("img/puzzle-piece.jpg")
+```
+
+**How and why does ISD contribute to the org?**
+
+---
+
+# `r fa("fas fa-cubes-stacked", fill = "#fff")` ISD in an Organization
+
+```{r, out.width = "480px", echo = FALSE, fig.align = "center"}
+include_graphics("img/puzzle-piece.jpg")
+```
+
+**How do you bring ISD into the org?**
+
+--
+
+Recruit, develop, and manage ISD talent:
+
+--
+
+- Plan
+
+--
+
+- Create professional learning opportunities
+
+--
+
+- Chart paths for career progression
+
+---
+
+class: inverse, center, middle
+
+# `r fa("far fa-handshake", fill = "#fff")` <br><br> Partnerships and Collaborations <br> (Ch. 18)
+
+---
+
+# `r fa("far fa-handshake", fill = "#fff")` Rapport
+
+```{r, out.width = "480px", echo = FALSE, fig.align = "center"}
+include_graphics("img/collaboration.jpg")
+```
+
+--
+
+- Navigating position power
+
+--
+
+- Asking questions
+
+--
+
+- Listening actively: feeling (emotional) components as much as the content (meaning) components
+
+--
+
+<div class="caption">
+See Table 18.1 in Rothwell et al. (2016, p.323)
+</div>
+
+---
+
+class: inverse, center, middle
+
+# `r fa("far fa-comments", fill = "#fff")` <br><br> What are your keys to building rapport?
+
+---
+
+# `r fa("far fa-handshake", fill = "#fff")` Relational Challenges
+
+```{r, out.width = "480px", echo = FALSE, fig.align = "center"}
+include_graphics("img/alone.jpg")
+```
+
+--
+
+- Conflict
+
+--
+
+- Off-task
+
+--
+
+- Loss of focus
+
+---
+
+class: inverse, center, middle
+
+# `r fa("far fa-comments", fill = "#fff")` <br><br> What challenges have you navigated?
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-screwdriver-wrench", fill = "#fff")` <br><br> ISD Project Management <br> (Ch. 19)
+
+---
+
+# `r fa("fas fa-screwdriver-wrench", fill = "#fff")` Project Foundations
+
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/foundation.jpg")
+```
+
+--
+
+- Front end: Establishing scope and goals
+
+--
+
+- Back end: Resources and budgets
+
+---
+
+# `r fa("fas fa-screwdriver-wrench", fill = "#fff")` Project Management Tools
+
+```{r, out.width = "420px", echo = FALSE, fig.align = "center"}
+include_graphics("img/toolbench.jpg")
+```
+
+--
+- Project management software
+
+--
+
+- Collaboration software
+
+--
+
+- Dashboards
+
+--
+
+- Scorecards
+
+--
+
+- Responsibility charting
+
+--
+
+- Video conferencing
+
+---
+
+class: inverse, center, middle
+
+# `r fa("far fa-comments", fill = "#fff")` <br><br> What other tools have you used?
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-binoculars", fill = "#fff")` <br><br> Looking ahead
+
+---
+
+# `r fa("fas fa-calendar-day", fill = "#fff")` Semester Schedule
+
+```{r, out.width = "360px", echo = FALSE, fig.align = "center"}
+include_graphics("img/across-time.jpg")
+```
+
+--
+
+- **Module 1:** Introduction to Instructional Systems Design
+
+- **Module 2: Systems Analysis**
+
+- **Module 3:** ISD & HPT
+
+- **Module 4:** Needs Assessment
+
+- **Module 5:** Work Analysis
+
+- **Module 6:** Design & Development
+
+- **Module 7:** Evaluation
+
+---
+
+# `r fa("fas fa-list", fill = "#fff")` Module Structure
+
+```{r, out.width = "540px", echo = FALSE, fig.align = "center"}
+include_graphics("img/workshop.jpg")
+```
+
+- `r fa("fas fa-video", fill = "#782F40")` Optional Office Hours: **Wednesdays 2:30-3:00pm EST**
+
+- `r fa("fas fa-book-open", fill = "#782F40")` Read
+
+- `r fa("far fa-comments", fill = "#782F40")` Meet: **Wednesdays 3:05-5:40pm EST**
+
+- `r fa("fas fa-keyboard", fill = "#782F40")` Create
+
+---
+
+# `r fa("far fa-keyboard", fill = "#fff")` Major Assignments
+
+```{r, out.width = "260px", echo = FALSE, fig.align = "center"}
+include_graphics("img/build.jpg")
+```
+
+### Assignments (70%)
+
+- **Module 2 Assignment: Systems Analysis paper (150 points)**
+
+- Module 3 Assignment: Annotated Bibliography 1 (50 points)
+
+- Module 4 Assignment: Needs Assessment paper (150 points)
+
+- Module 5 Assignment: Annotated Bibliography 2 (50 points)
+
+- Module 6 Assignment: Work Analysis paper (150 points)
+
+- Module 7 Assignment: ISD Process Model paper (150 points)
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-question", fill = "#fff")` <br><br> Questions
+
+<hr>
+
+**What questions can I answer for you now?**
+
+**How can I support you this week?**
+
+<hr>
+
+`r fa("fas fa-envelope", fill = "#fff")` [bret.staudtwillet@fsu.edu](mailto:bret.staudtwillet@fsu.edu) | `r fa("fas fa-globe", fill = "#fff")` [bretsw.com](https://bretsw.com) | `r fa("fab fa-github", fill = "#fff")` [GitHub](https://github.com/bretsw/)
